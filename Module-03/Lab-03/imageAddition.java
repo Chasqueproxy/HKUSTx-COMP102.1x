@@ -1,7 +1,7 @@
 public void imageAddition() {
 
         // Please write your code after this line
-				ColorImage img1 = new ColorImage();
+        ColorImage img1 = new ColorImage();
         ColorImage img2 = new ColorImage();
         ColorImage img3 = img1.add(img2);
         Canvas canvas = new Canvas(img1.getWidth() + img2.getWidth() + img3.getWidth() + 2*10, img1.getHeight());
